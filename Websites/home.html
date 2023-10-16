@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+
+<link rel="stylesheet" href="menu.css">
+
+
+<script type="text/javascript">
+
+	function togglemenu(){
+	
+	
+	
+	document.getElementById('sidebar').classList.toggle('active');
+	
+	var hamburgerButton = document.getElementById("nav_links");
+    if (hamburgerButton.className === "nav_links") {
+        hamburgerButton.className = "nav_links_hidden";
+    } else {
+        hamburgerButton.className = "nav_links";
+    }
+
+	}
+	
+
+
+
+</script>
+
+
+
+
+</head>
+<body>
+		   <h3>ABOUT THE COMPANY</h3>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.<br><br> 
+		Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.<br><br> Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br><br> Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		<div id="sidebar" onclick="togglemenu()">
+		<div class="toggle-btn">
+		<label class="hamburgerbutton">
+		
+		 <a href="javascript:void(0)" id="hamburgerlink" onclick="toggleMenu()">
+         <i class="fas fa-bars fa-2x" style="color:gray"></i></a>
+        </label>
+
+		</div>
+		
+		<ul>
+		
+		<div class="img">
+		<img src="Lightbearer Logo 3.png" class="avatar">
+		</div>
+		<ul class="nav_links" id="nav_links">
+		
+				<li style="color:transparent"><i class="fa fa-info-circle" style="font-size:24px"></i><a style="text-decoration:none; color:aqua;"rel="Click here" href="about.html"/>ABOUT</li>
+		<li style="color:transparent"><i class="fa fa-home" style="font-size:24px"></i><a style="text-decoration:none; color:aqua;"rel="Click here" href="menu.html"/>HOME</li>
+		<li style="color:transparent"><i class="fa fa-briefcase" style="font-size:24px"></i><a style="text-decoration:none; color:aqua;"rel="Click here" href="contact.html"/>PORTFOLIO</li>
+		<li style="color:transparent" name="contact"><i class="fa fa-phone" style="font-size:24px"></i><a style="text-decoration:none; color:aqua;"rel="Click here" href="contact.html"/>CONTACT</li>			
+		</ul>
+		</nav>
+		
+		    <script src="https://kit.fontawesome.com/8a891aad85.js" crossorigin="anonymous"></script>
+    <script src="script/style.js" type="text/javascript"></script>	
+		
+	</body>
+	      </div>
+		
+		
+
+		
+		    <script src="https://kit.fontawesome.com/8a891aad85.js" crossorigin="anonymous"></script>
+    <script src="script/style.js" type="text/javascript"></script>	
+		
+	</body>
+	      </div>
+    </section>
+</footer> 
+</body>
+
+</html>

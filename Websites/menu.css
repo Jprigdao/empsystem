@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+
+body{
+	
+	margin: 0px;
+	padding: 0px;
+	background-image: url("66-666819_website-design-background-creative-background-image-for-website.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+    width: 100%;
+    height: 300%;
+	letter-spacing: 3px;
+	margin-top: 0px;
+}
+
+
+nav h2{
+    margin-top: -80px;
+	margin-left: 0px;
+
+}
+
+
+
+
+
+
+
+h3{
+	margin-top: 0px;
+	margin-left: 350px;
+	color: white;
+	font-family: verdana;
+	font-size: 10px;
+	padding: 10px;
+	position: relative;
+	text-align: left;
+
+}
+
+
+span{
+	color: white;
+	margin-left: 30px;
+	margin-top: 40px;
+	padding: 10px;
+	position: relative;
+	height: 40px;
+	display: flex;
+	align-items: left;
+	
+	
+}
+
+.nav_links {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 1000vh;
+  width: 200%;
+  opacity: 0;
+  pointer-events: none;
+
+  background: rgba(0, 0, 0, 0.3);
+}
+
+	
+	
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+ .slider-frame{
+ 
+      height: 100%;
+      width: 100%;
+      margin-left: 500px;
+      margin-top: 0px;
+  }
+ 
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  @-webkit-keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  .slide-images{
+      width: 4600%;
+      height: 3000%;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 30s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+
+
+
+.img-container{
+      height: 800px;
+      width: 1200px;
+      position: relative;
+      float: left;
+	  margin-top: 100px;
+	  margin-left: 180px;
+  }
+
+
+
+#sidebar{
+	
+	padding: 5px;
+	position: fixed;
+	left: -40%;
+	width: 40%;
+	height: 100%;
+	background-color: black;
+
+}
+
+p{
+	margin-top: 230px;
+	margin-left: 50px;
+	color: white;
+	font-family: verdana;
+	font-size: 30px;
+	padding: 30px;
+	position: absolute;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#nav_links li{
+	
+	font-size: 30px;
+	margin-left: 0px;
+	margin-top: -30px;
+	padding: 40px 10px;
+	text-align: left;
+	border-bottom: 1px solid white;
+	list-style: none;
+
+}
+
+
+
+
+#nav_links .fa{
+	
+	color: aqua;
+	font-size: 20px;
+	margin-left: 0px;
+	padding: 10px;
+	text-align: left;
+	padding: 5px;
+		
+	
+}
+
+#nav_links :hover{
+	background: #FFFFFF;
+	padding: 5px;
+	width: 100%;
+	margin-left: -3px;
+}
+
+
+img {
+  width: 300px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+
+
+
+.toggle-btn{
+	position: absolute;
+	left: 105%;
+	top: 15px;
+	
+}
+
+
+.header li :hover{
+	border-radius: 30px;
+	background-color: aqua;
+	
+	
+}
+
+
+
+#sidebar.active{
+	left: 0;
+}
+
+
+
+.header-dark{
+		color: navy;
+	
+}
+
+
+
+
+.headerset{
+
+
+padding-top: 150px;
+box-sizing: border-box;
+
+
+}
+
+.ourservices{
+  padding-top: 50px;
+   
+}
+.ourservices h1
+{
+	margin-left: 80px;
+	margin-top: -80px;
+    font-weight: bold;
+    font-size: 300;
+}
+
+.card{
+    margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 5px;
+	
+}
+
+img .card-img img-fluid {
+		margin-left: 50px;
+}
+
+.footer{
+    padding-top: 100px;
+    height: 70px;
+}
+
+.footer h6{
+    line-height: 150px;
+}
+
+
